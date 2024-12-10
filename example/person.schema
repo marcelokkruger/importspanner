@@ -1,0 +1,5 @@
+document,string
+name,string
+dt_nascimento,date
+nu_idade_obito,integer
+id,integer
