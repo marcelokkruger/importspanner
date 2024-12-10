@@ -36,3 +36,12 @@ batch_size | Number of rows to insert in a batch
 data_file | Path of csv input data file
 head_file | If the header exists in the CSV, set the option to true to disregard it
 schema_file | Path of schema file describing the input data file
+
+# Example
+
+In the example folder, there are 3 files that will help you with your first import into Spanner.
+
+* person.ddl: This file contains the code for creating the table. This code must be run first in Spanner. The import does not create the table; it must be previously created.
+* person.schema: This is the schema of the data that will be imported. The application will read this schema file, and for each column listed in it, it will convert the data read from person.csv. The schema file is always organized as follows: the first column is the name of the field in the data file, and the second column is the data type.
+* person.csv: Data files are always separated by commas.
+
