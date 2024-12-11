@@ -5,7 +5,7 @@ Tool command line for imports a csv file into a cloud spanner table
 
 1 Clone this repository
 
-    git clone https://github.com/hanknac/spannerimport.git
+    git clone https://github.com/marcelokkruger/importspanner.git
 
 2 Set the application default login using gcloud
 
